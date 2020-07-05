@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+.card {
+    background-color: darkgrey;
+}
+
+.card .title {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: gold;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.card .title:hover {
+    cursor: default;
+    color: black;
+    text-shadow: -2px 0 gold, 0 2px gold, 2px 0 gold, 0 -2px gold;
+}
+
+.card .footer {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.card .btn {
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    background-color: gold;
+    width: 200px;
+}
+
+.card .btn:hover {
+    border: 2px solid gold;
+    color: white;
+    background-color: black;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#lyrics {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+}
+
+#songLabel {
+    font-weight: 600;
+    text-align: center;
+}
+
+#artistLabel {
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-control {
+    border: 2px solid black;
+}
