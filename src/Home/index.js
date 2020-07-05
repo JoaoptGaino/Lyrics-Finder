@@ -23,7 +23,8 @@ const Home = () => {
                 lyrics_el.innerHTML = data.error;
             }
         }catch(err){
-            lyrics_el.innerHTML = "error";
+            lyrics_el.innerHTML = "Cannot find lyrics, please make sure you wrote the write name";
+            lyrics_el.style.color = 'red';
             console.log(err);
         }
     }
@@ -65,9 +66,7 @@ const Home = () => {
             </form>
 
             <div className="row justify-content-center">
-                <pre className="mt-4" id="lyrics">
-                    
-                </pre>
+                <pre className="mt-4" id="lyrics"></pre>
             </div>
         </div>
     )
